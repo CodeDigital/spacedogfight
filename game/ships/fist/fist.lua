@@ -3,8 +3,8 @@ fist.name = "OSS Fist"
 fist.manufacturer = "Outer Saturn Space Inc."
 fist.abilityName = "Punch"
 fist.description = "Without turrets or rockets installed. The only way to eliminate others is by ramming into them at full speed. 'Punch' gives this ship a short burst of energy to maximize ramming power."
-fist.rotation = 90
-fist.speed = 200
+fist.rSpeed = 90
+fist.fSpeed = 200
 fist.gun = "na"
 fist.rocket = "na"
 fist.health = 500
@@ -37,7 +37,7 @@ fist.nextFrame = function(type)
 end
 
 fist.ability = function()
-  fist.speed = 500
+  fist.fSpeed = 500
 end
 
 return fist
