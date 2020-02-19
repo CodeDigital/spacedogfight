@@ -1,3 +1,4 @@
+package.path = package.path .. ";../?.lua"
 player = {}
 
 function player.create(x, y, ship, plyData)
